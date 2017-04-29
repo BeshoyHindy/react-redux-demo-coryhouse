@@ -1,0 +1,3 @@
+https://github.com/coryhouse/pluralsight-redux-app-used-to-build-script
+
+https://github.com/coryhouse/pluralsight-redux-starter
