@@ -49,7 +49,7 @@ class ManageCoursePage extends React.Component {
 
   redirect() {
     this.setState({saving: false});
-    toastr.success('Course Saved!')
+    toastr.success('Course Saved!');
     this.context.router.push('/courses');
   }
 
@@ -61,8 +61,8 @@ class ManageCoursePage extends React.Component {
         allAuthors={this.props.authors}
         onSave={this.saveCourse}
         onChange={this.updateCourseState}
-        saving={this.state.saving} >
-      </CourseForm>
+        saving={this.state.saving}
+      />
     );
   }
 }
